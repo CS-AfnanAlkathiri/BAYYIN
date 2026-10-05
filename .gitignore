@@ -1,0 +1,36 @@
+# Local Python environments
+.venv/
+venv/
+
+# Python caches / test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Secrets / local environment
+.env
+.env.*
+!.env.example
+
+# Runtime databases and local state
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs / temporary files
+*.log
+tmp/
+temp/
+
+# Build artifacts
+build/
+dist/
+.cache/

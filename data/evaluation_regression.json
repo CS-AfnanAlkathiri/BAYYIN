@@ -1,0 +1,554 @@
+[
+  {
+    "id": "p01",
+    "lang": "en",
+    "input": "Check a report before acting on it so people are not harmed through ignorance",
+    "category": "paraphrase",
+    "expected_source_ids": [
+      "quran-49-6"
+    ],
+    "expected_status": null
+  },
+  {
+    "id": "p02",
+    "lang": "en",
+    "input": "Verify news before you act on it",
+    "category": "paraphrase",
+    "expected_source_ids": [
+      "quran-49-6"
+    ],
+    "expected_status": null
+  },
+  {
+    "id": "p03",
+    "lang": "ar",
+    "input": "تأكد من الخبر قبل أن تتصرف حتى لا تضر الناس بجهل",
+    "category": "paraphrase",
+    "expected_source_ids": [
+      "quran-49-6"
+    ],
+    "expected_status": null
+  },
+  {
+    "id": "p04",
+    "lang": "en",
+    "input": "Do not follow what you have no knowledge about",
+    "category": "paraphrase",
+    "expected_source_ids": [
+      "quran-17-36"
+    ],
+    "expected_status": null
+  },
+  {
+    "id": "p05",
+    "lang": "en",
+    "input": "A person should not pursue claims they do not know to be true",
+    "category": "paraphrase",
+    "expected_source_ids": [
+      "quran-17-36"
+    ],
+    "expected_status": null
+  },
+  {
+    "id": "p06",
+    "lang": "ar",
+    "input": "لا تتبع ما ليس لك به علم",
+    "category": "paraphrase",
+    "expected_source_ids": [
+      "quran-17-36"
+    ],
+    "expected_status": null
+  },
+  {
+    "id": "p07",
+    "lang": "en",
+    "input": "People repeated with their mouths something they had no knowledge of and treated it lightly",
+    "category": "paraphrase",
+    "expected_source_ids": [
+      "quran-24-15"
+    ],
+    "expected_status": null
+  },
+  {
+    "id": "p08",
+    "lang": "en",
+    "input": "Repeating an unverified accusation can seem small while being serious",
+    "category": "paraphrase",
+    "expected_source_ids": [
+      "quran-24-15"
+    ],
+    "expected_status": null
+  },
+  {
+    "id": "p09",
+    "lang": "ar",
+    "input": "تلقف الناس الكلام بألسنتهم وقالوا ما لا علم لهم به",
+    "category": "paraphrase",
+    "expected_source_ids": [
+      "quran-24-15"
+    ],
+    "expected_status": null
+  },
+  {
+    "id": "p10",
+    "lang": "en",
+    "input": "When hearing a serious slander, one should not simply repeat it",
+    "category": "paraphrase",
+    "expected_source_ids": [
+      "quran-24-16"
+    ],
+    "expected_status": null
+  },
+  {
+    "id": "p11",
+    "lang": "en",
+    "input": "It is not for us to speak of a great slander we have only heard",
+    "category": "paraphrase",
+    "expected_source_ids": [
+      "quran-24-16"
+    ],
+    "expected_status": null
+  },
+  {
+    "id": "p12",
+    "lang": "ar",
+    "input": "عند سماع البهتان لا ينبغي أن نقول ما ليس لنا أن نتكلم به",
+    "category": "paraphrase",
+    "expected_source_ids": [
+      "quran-24-16"
+    ],
+    "expected_status": null
+  },
+  {
+    "id": "p13",
+    "lang": "en",
+    "input": "Believers are told to speak words that are upright and just",
+    "category": "paraphrase",
+    "expected_source_ids": [
+      "quran-33-70"
+    ],
+    "expected_status": null
+  },
+  {
+    "id": "p14",
+    "lang": "en",
+    "input": "Speak in a sound and appropriate way while fearing Allah",
+    "category": "paraphrase",
+    "expected_source_ids": [
+      "quran-33-70"
+    ],
+    "expected_status": null
+  },
+  {
+    "id": "p15",
+    "lang": "ar",
+    "input": "على المؤمنين أن يتقوا الله ويقولوا قولا سديدا",
+    "category": "paraphrase",
+    "expected_source_ids": [
+      "quran-33-70"
+    ],
+    "expected_status": null
+  },
+  {
+    "id": "p16",
+    "lang": "en",
+    "input": "Do not mix truth with falsehood or knowingly hide the truth",
+    "category": "paraphrase",
+    "expected_source_ids": [
+      "quran-2-42"
+    ],
+    "expected_status": null
+  },
+  {
+    "id": "p17",
+    "lang": "en",
+    "input": "Truth should not be concealed or blended with falsehood",
+    "category": "paraphrase",
+    "expected_source_ids": [
+      "quran-2-42"
+    ],
+    "expected_status": null
+  },
+  {
+    "id": "p18",
+    "lang": "ar",
+    "input": "لا تلبسوا الحق بالباطل ولا تكتموا الحق وأنتم تعلمون",
+    "category": "paraphrase",
+    "expected_source_ids": [
+      "quran-2-42"
+    ],
+    "expected_status": null
+  },
+  {
+    "id": "p19",
+    "lang": "en",
+    "input": "Avoid excessive suspicion, spying and backbiting",
+    "category": "paraphrase",
+    "expected_source_ids": [
+      "quran-49-12"
+    ],
+    "expected_status": null
+  },
+  {
+    "id": "p20",
+    "lang": "en",
+    "input": "Believers should avoid much negative assumption and not backbite one another",
+    "category": "paraphrase",
+    "expected_source_ids": [
+      "quran-49-12"
+    ],
+    "expected_status": null
+  },
+  {
+    "id": "p21",
+    "lang": "ar",
+    "input": "اجتنبوا كثيرا من الظن ولا تجسسوا ولا يغتب بعضكم بعضا",
+    "category": "paraphrase",
+    "expected_source_ids": [
+      "quran-49-12"
+    ],
+    "expected_status": null
+  },
+  {
+    "id": "p22",
+    "lang": "en",
+    "input": "Hatred of a people should not stop you from being just",
+    "category": "paraphrase",
+    "expected_source_ids": [
+      "quran-5-8"
+    ],
+    "expected_status": null
+  },
+  {
+    "id": "p23",
+    "lang": "en",
+    "input": "Be just even toward people you dislike",
+    "category": "paraphrase",
+    "expected_source_ids": [
+      "quran-5-8"
+    ],
+    "expected_status": null
+  },
+  {
+    "id": "p24",
+    "lang": "ar",
+    "input": "لا يحملنكم بغض قوم على ترك العدل",
+    "category": "paraphrase",
+    "expected_source_ids": [
+      "quran-5-8"
+    ],
+    "expected_status": null
+  },
+  {
+    "id": "p25",
+    "lang": "en",
+    "input": "When you do not know, ask the people who possess knowledge",
+    "category": "paraphrase",
+    "expected_source_ids": [
+      "quran-16-43"
+    ],
+    "expected_status": null
+  },
+  {
+    "id": "p26",
+    "lang": "en",
+    "input": "Ask knowledgeable people when you lack knowledge",
+    "category": "paraphrase",
+    "expected_source_ids": [
+      "quran-16-43"
+    ],
+    "expected_status": null
+  },
+  {
+    "id": "p27",
+    "lang": "ar",
+    "input": "إذا لم تعلموا فاسألوا أهل الذكر",
+    "category": "paraphrase",
+    "expected_source_ids": [
+      "quran-16-43"
+    ],
+    "expected_status": null
+  },
+  {
+    "id": "p28",
+    "lang": "en",
+    "input": "Actions are connected to the intentions behind them",
+    "category": "paraphrase",
+    "expected_source_ids": [
+      "hadith-bukhari-1"
+    ],
+    "expected_status": null
+  },
+  {
+    "id": "p29",
+    "lang": "en",
+    "input": "A person receives according to what they intended in their actions",
+    "category": "paraphrase",
+    "expected_source_ids": [
+      "hadith-bukhari-1"
+    ],
+    "expected_status": null
+  },
+  {
+    "id": "p30",
+    "lang": "ar",
+    "input": "الأعمال مرتبطة بالنيات ولكل امرئ ما نوى",
+    "category": "paraphrase",
+    "expected_source_ids": [
+      "hadith-bukhari-1"
+    ],
+    "expected_status": null
+  },
+  {
+    "id": "p31",
+    "lang": "en",
+    "input": "Whoever believes in Allah and the Last Day should speak good or stay silent",
+    "category": "paraphrase",
+    "expected_source_ids": [
+      "hadith-bukhari-6018"
+    ],
+    "expected_status": null
+  },
+  {
+    "id": "p32",
+    "lang": "en",
+    "input": "Faith calls a person to say what is good or remain quiet",
+    "category": "paraphrase",
+    "expected_source_ids": [
+      "hadith-bukhari-6018"
+    ],
+    "expected_status": null
+  },
+  {
+    "id": "p33",
+    "lang": "ar",
+    "input": "من كان يؤمن بالله واليوم الآخر فليقل خيرا أو ليصمت",
+    "category": "paraphrase",
+    "expected_source_ids": [
+      "hadith-bukhari-6018"
+    ],
+    "expected_status": null
+  },
+  {
+    "id": "p34",
+    "lang": "en",
+    "input": "Repeating everything you hear is enough to make a person unreliable",
+    "category": "paraphrase",
+    "expected_source_ids": [
+      "hadith-muslim-5"
+    ],
+    "expected_status": null
+  },
+  {
+    "id": "p35",
+    "lang": "en",
+    "input": "A person can fall into lying by narrating every report they hear",
+    "category": "paraphrase",
+    "expected_source_ids": [
+      "hadith-muslim-5"
+    ],
+    "expected_status": null
+  },
+  {
+    "id": "p36",
+    "lang": "ar",
+    "input": "يكفي المرء كذبا أن يحدث بكل ما سمع",
+    "category": "paraphrase",
+    "expected_source_ids": [
+      "hadith-muslim-5"
+    ],
+    "expected_status": null
+  },
+  {
+    "id": "n01",
+    "lang": "en",
+    "input": "Fasting in Ramadan is obligatory",
+    "category": "out_of_corpus",
+    "expected_source_ids": [],
+    "expected_status": "insufficient_evidence"
+  },
+  {
+    "id": "n02",
+    "lang": "en",
+    "input": "The Prophet said God loves the one who insults his neighbor",
+    "category": "out_of_corpus",
+    "expected_source_ids": [],
+    "expected_status": "insufficient_evidence"
+  },
+  {
+    "id": "n03",
+    "lang": "en",
+    "input": "Islam requires every Muslim to own a horse",
+    "category": "out_of_corpus",
+    "expected_source_ids": [],
+    "expected_status": "insufficient_evidence"
+  },
+  {
+    "id": "n04",
+    "lang": "en",
+    "input": "The Quran says every business contract must be written in blue ink",
+    "category": "out_of_corpus",
+    "expected_source_ids": [],
+    "expected_status": "insufficient_evidence"
+  },
+  {
+    "id": "n05",
+    "lang": "en",
+    "input": "A person who drinks coffee loses all reward for prayer",
+    "category": "out_of_corpus",
+    "expected_source_ids": [],
+    "expected_status": "insufficient_evidence"
+  },
+  {
+    "id": "n06",
+    "lang": "en",
+    "input": "The Prophet promised a specific worldly salary to every student",
+    "category": "out_of_corpus",
+    "expected_source_ids": [],
+    "expected_status": "insufficient_evidence"
+  },
+  {
+    "id": "n07",
+    "lang": "ar",
+    "input": "الصيام في رمضان واجب",
+    "category": "out_of_corpus",
+    "expected_source_ids": [],
+    "expected_status": "insufficient_evidence"
+  },
+  {
+    "id": "n08",
+    "lang": "ar",
+    "input": "قال النبي إن الله يحب من يشتم جاره",
+    "category": "out_of_corpus",
+    "expected_source_ids": [],
+    "expected_status": "insufficient_evidence"
+  },
+  {
+    "id": "n09",
+    "lang": "ar",
+    "input": "كل مسلم يجب أن يملك حصانا",
+    "category": "out_of_corpus",
+    "expected_source_ids": [],
+    "expected_status": "insufficient_evidence"
+  },
+  {
+    "id": "n10",
+    "lang": "ar",
+    "input": "من شرب القهوة بطلت صلاته",
+    "category": "out_of_corpus",
+    "expected_source_ids": [],
+    "expected_status": "insufficient_evidence"
+  },
+  {
+    "id": "n11",
+    "lang": "ar",
+    "input": "يجب كتابة كل عقد تجاري بالحبر الأزرق",
+    "category": "out_of_corpus",
+    "expected_source_ids": [],
+    "expected_status": "insufficient_evidence"
+  },
+  {
+    "id": "n12",
+    "lang": "ar",
+    "input": "من يدرس ساعة يضمن له مبلغ مالي معين في الدنيا",
+    "category": "out_of_corpus",
+    "expected_source_ids": [],
+    "expected_status": "insufficient_evidence"
+  },
+  {
+    "id": "m01",
+    "lang": "en",
+    "input": "Allah said lying is permitted whenever it benefits you (Quran 49:6)",
+    "category": "citation_mismatch",
+    "expected_source_ids": [],
+    "expected_status": "citation_mismatch"
+  },
+  {
+    "id": "m02",
+    "lang": "en",
+    "input": "Quran 17:36 says you should follow every rumor immediately",
+    "category": "citation_mismatch",
+    "expected_source_ids": [],
+    "expected_status": "citation_mismatch"
+  },
+  {
+    "id": "m03",
+    "lang": "en",
+    "input": "Quran 24:15 teaches that spreading an accusation without knowledge is harmless",
+    "category": "citation_mismatch",
+    "expected_source_ids": [],
+    "expected_status": "citation_mismatch"
+  },
+  {
+    "id": "m04",
+    "lang": "en",
+    "input": "Quran 33:70 commands believers to deceive people when convenient",
+    "category": "citation_mismatch",
+    "expected_source_ids": [],
+    "expected_status": "citation_mismatch"
+  },
+  {
+    "id": "m05",
+    "lang": "en",
+    "input": "Quran 2:42 says hiding the truth is required",
+    "category": "citation_mismatch",
+    "expected_source_ids": [],
+    "expected_status": "citation_mismatch"
+  },
+  {
+    "id": "m06",
+    "lang": "en",
+    "input": "Quran 49:12 commands Muslims to spy on one another",
+    "category": "citation_mismatch",
+    "expected_source_ids": [],
+    "expected_status": "citation_mismatch"
+  },
+  {
+    "id": "m07",
+    "lang": "en",
+    "input": "Quran 5:8 says hatred is a reason to abandon justice",
+    "category": "citation_mismatch",
+    "expected_source_ids": [],
+    "expected_status": "citation_mismatch"
+  },
+  {
+    "id": "m08",
+    "lang": "en",
+    "input": "Quran 16:43 says never ask knowledgeable people when you do not know",
+    "category": "citation_mismatch",
+    "expected_source_ids": [],
+    "expected_status": "citation_mismatch"
+  },
+  {
+    "id": "m09",
+    "lang": "ar",
+    "input": "قال الله يجوز الكذب إذا كان فيه منفعة (القرآن 49:6)",
+    "category": "citation_mismatch",
+    "expected_source_ids": [],
+    "expected_status": "citation_mismatch"
+  },
+  {
+    "id": "m10",
+    "lang": "ar",
+    "input": "القرآن 49:12 يأمر بالتجسس على الناس",
+    "category": "citation_mismatch",
+    "expected_source_ids": [],
+    "expected_status": "citation_mismatch"
+  },
+  {
+    "id": "m11",
+    "lang": "ar",
+    "input": "القرآن 5:8 يقول اتركوا العدل مع من تكرهون",
+    "category": "citation_mismatch",
+    "expected_source_ids": [],
+    "expected_status": "citation_mismatch"
+  },
+  {
+    "id": "m12",
+    "lang": "ar",
+    "input": "القرآن 2:42 يأمر بكتمان الحق",
+    "category": "citation_mismatch",
+    "expected_source_ids": [],
+    "expected_status": "citation_mismatch"
+  }
+]

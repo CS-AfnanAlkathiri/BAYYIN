@@ -1,0 +1,68 @@
+[
+  {
+    "id": "c1",
+    "claim_ar": "القرآن يأمر بالتثبت من الخبر قبل الإضرار بالناس بسببه",
+    "status": "source_linked",
+    "label_ar": "مدعوم بنص مرجعي",
+    "source_ids": [
+      "quran-49-6"
+    ],
+    "explanation_ar": "الآية 49:6 تربط التثبت من الخبر بتجنب إصابة الناس بجهالة والندم على ذلك. هذا توصيف للمصدر وليس فتوى على واقعة محددة.",
+    "claim_en": "The Qur'an commands verifying news before it leads to harming people",
+    "label_en": "Supported by a referenced text",
+    "explanation_en": "Verse 49:6 links verifying news to avoiding harming people out of ignorance and regretting it afterward. This describes the source; it is not a ruling on a specific case."
+  },
+  {
+    "id": "c2",
+    "claim_ar": "القرآن يحذر من قول ما ليس للإنسان به علم",
+    "status": "source_linked",
+    "label_ar": "مدعوم بنص مرجعي",
+    "source_ids": [
+      "quran-17-36",
+      "quran-24-15"
+    ],
+    "explanation_ar": "توجد نصوص قرآنية واضحة الصلة بعدم اتباع أو قول ما لا علم به.",
+    "claim_en": "The Qur'an warns against saying what one has no knowledge of",
+    "label_en": "Supported by a referenced text",
+    "explanation_en": "There are clear Qur'anic texts relevant to not following or asserting what one has no knowledge of."
+  },
+  {
+    "id": "c3",
+    "claim_ar": "حديث إنما الأعمال بالنيات موجود في صحيح البخاري",
+    "status": "source_linked",
+    "label_ar": "المصدر متتبع",
+    "source_ids": [
+      "hadith-bukhari-1"
+    ],
+    "explanation_ar": "تم تتبع العبارة إلى صحيح البخاري، الحديث رقم 1.",
+    "claim_en": "The hadith 'Actions are judged by intentions' is found in Sahih al-Bukhari",
+    "label_en": "Source traced",
+    "explanation_en": "The phrase has been traced to Sahih al-Bukhari, hadith number 1."
+  },
+  {
+    "id": "c4",
+    "claim_ar": "حديث فليقل خيرا أو ليصمت مروي في صحيح البخاري",
+    "status": "source_linked",
+    "label_ar": "المصدر متتبع",
+    "source_ids": [
+      "hadith-bukhari-6018"
+    ],
+    "explanation_ar": "العبارة جزء من صحيح البخاري 6018، والحديث الكامل يتضمن موضوعات إضافية.",
+    "claim_en": "The hadith 'speak good or remain silent' is narrated in Sahih al-Bukhari",
+    "label_en": "Source traced",
+    "explanation_en": "The phrase is part of Sahih al-Bukhari 6018; the full hadith includes additional subject matter."
+  },
+  {
+    "id": "c5",
+    "claim_ar": "يكفي في الكذب أن ينقل الشخص كل ما يسمع",
+    "status": "context_needed",
+    "label_ar": "المعنى قريب والسياق مهم",
+    "source_ids": [
+      "hadith-muslim-5"
+    ],
+    "explanation_ar": "يوجد حديث في مقدمة صحيح مسلم بلفظ قريب جدًا. الأفضل عرض النص العربي الكامل ومرجعه بدل الاكتفاء بإعادة الصياغة.",
+    "claim_en": "It is enough to be untruthful for a person to relay everything they hear",
+    "label_en": "Meaning is close -- context matters",
+    "explanation_en": "A hadith in the introduction to Sahih Muslim uses very similar wording. It is best to show the full Arabic text and its reference rather than relying on paraphrase alone."
+  }
+]

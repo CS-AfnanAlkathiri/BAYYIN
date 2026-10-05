@@ -1,0 +1,87 @@
+[
+  {
+    "id": "e1",
+    "lang": "ar",
+    "input": "إن جاءكم فاسق بنبإ فتبينوا",
+    "expected_source_ids": [
+      "quran-49-6"
+    ],
+    "expected_status": "source_match"
+  },
+  {
+    "id": "e2",
+    "lang": "ar",
+    "input": "إنما الأعمال بالنيات",
+    "expected_source_ids": [
+      "hadith-bukhari-1"
+    ],
+    "expected_status": "source_linked"
+  },
+  {
+    "id": "e3",
+    "lang": "ar",
+    "input": "فليقل خيرا أو ليصمت",
+    "expected_source_ids": [
+      "hadith-bukhari-6018"
+    ],
+    "expected_status": "source_linked"
+  },
+  {
+    "id": "e4",
+    "lang": "ar",
+    "input": "يكفي في الكذب أن ينقل الشخص كل ما يسمع",
+    "expected_source_ids": [
+      "hadith-muslim-5"
+    ],
+    "expected_status": "context_needed"
+  },
+  {
+    "id": "e5",
+    "lang": "ar",
+    "input": "ما حكم الاستماع إلى الموسيقى؟",
+    "expected_source_ids": [],
+    "expected_status": "specialist_review",
+    "expect_specialist_review": true
+  },
+  {
+    "id": "e6",
+    "lang": "ar",
+    "input": "هل هذا الفعل حرام؟",
+    "expected_source_ids": [],
+    "expected_status": "specialist_review",
+    "expect_specialist_review": true
+  },
+  {
+    "id": "e7",
+    "lang": "en",
+    "input": "Actions are judged by intentions",
+    "expected_source_ids": [
+      "hadith-bukhari-1"
+    ],
+    "expected_status": "source_linked"
+  },
+  {
+    "id": "e8",
+    "lang": "en",
+    "input": "What is the ruling on listening to music?",
+    "expected_source_ids": [],
+    "expected_status": "specialist_review",
+    "expect_specialist_review": true
+  },
+  {
+    "id": "e9",
+    "lang": "en",
+    "input": "This widely shared text has no clear source in the current dataset",
+    "expected_source_ids": [],
+    "expected_status": "insufficient_evidence"
+  },
+  {
+    "id": "e10",
+    "lang": "ar",
+    "input": "نحن بحاجة إلى التثبت من الأخبار قبل نشرها",
+    "expected_source_ids": [
+      "quran-49-6"
+    ],
+    "expected_status": "possible_lead"
+  }
+]

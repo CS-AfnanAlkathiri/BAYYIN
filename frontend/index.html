@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="ar" dir="rtl" id="htmlRoot">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#f6f2ee" />
+  <meta name="description" content="BAYYIN — AI-assisted source and context verification for Islamic digital content." />
+  <title>BAYYIN | بيّن</title>
+  <link rel="stylesheet" href="/assets/styles.css" />
+</head>
+<body>
+  <main class="shell">
+    <aside class="brand-rail" aria-label="BAYYIN overview">
+      <div class="brand-lockup">
+        <div class="brand-mark" aria-hidden="true"><span class="brand-star">✦</span></div>
+        <div>
+          <h1>BAYYIN</h1>
+          <p data-i18n="brand_subtitle">تتبّع المصدر. افهم السياق.</p>
+        </div>
+      </div>
+
+      <div class="rail-features">
+        <div class="rail-feature"><span class="ficon blush" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m21 21-4.35-4.35"/><circle cx="11" cy="11" r="6"/><path d="M8.7 11.2 10.4 13l3.4-4"/></svg></span><div><b data-i18n="feature1_title">تحقق مرتبط بالمصدر</b><small data-i18n="feature1_sub">مرجع ظاهر وقابل للفتح</small></div></div>
+        <div class="rail-feature"><span class="ficon sage" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3 5 6v5c0 4.8 2.9 8.1 7 10 4.1-1.9 7-5.2 7-10V6l-7-3Z"/><path d="m9 12 2 2 4-5"/></svg></span><div><b data-i18n="feature2_title">السياق قبل الاستنتاج</b><small data-i18n="feature2_sub">التشابه وحده لا يثبت المعنى</small></div></div>
+        <div class="rail-feature"><span class="ficon lilac" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M18.4 5.6l-2.1 2.1M7.7 16.3l-2.1 2.1"/><circle cx="12" cy="12" r="3.4"/></svg></span><div><b data-i18n="feature3_title">حدود واضحة</b><small data-i18n="feature3_sub">نتوقف عندما لا تكفي المصادر</small></div></div>
+      </div>
+
+      <blockquote class="rail-quote">
+        <p data-i18n="rail_quote">«فتبيّنوا»</p>
+        <small>QUR'AN 49:6</small>
+      </blockquote>
+      <div class="rail-stats" id="mvpStats" aria-live="polite"><span>—</span></div>
+    </aside>
+
+    <section class="app-card">
+      <div class="aurora" aria-hidden="true"></div>
+      <header class="app-header">
+        <div class="mini-brand"><span class="mini-crescent" aria-hidden="true">☾</span><b>BAYYIN</b></div>
+        <div class="header-right">
+          <button id="langToggle" class="lang-toggle" type="button" aria-label="Switch language">EN</button>
+          <span class="safe-pill" data-i18n="safe_pill">تحقق مدعوم بالذكاء الاصطناعي</span>
+        </div>
+      </header>
+
+      <section id="homeView" class="view active">
+        <p class="eyebrow" data-i18n="home_eyebrow">تحقق من المحتوى الإسلامي</p>
+        <h2 data-i18n-html="heading">تحقّق من الادعاء<br><span>بوضوح وهدوء.</span></h2>
+        <p class="lead" data-i18n="lead">ألصق اقتباسًا أو منشورًا أو ادعاءً، وبيّن يساعدك في تتبّع مصدره وفحص مطابقته وسياقه وبيان حدود النتيجة.</p>
+
+        <section class="ai-role-card compact-accordion" aria-label="How BAYYIN uses AI">
+          <button class="ai-role-toggle" id="aiRoleToggle" type="button" aria-expanded="false">
+            <span class="ai-role-titlewrap"><span class="ai-badge">AI</span><span><b data-i18n="ai_role_title">كيف يعمل بيّن؟</b><small data-i18n="ai_role_sub">ذكاء اصطناعي للاسترجاع بالمعنى، ثم تحقق مستقل قبل عرض أي دليل.</small></span></span>
+            <b class="accordion-symbol" aria-hidden="true">+</b>
+          </button>
+          <div class="ai-role-body" id="aiRoleBody" hidden>
+            <div class="ai-role-flow">
+              <span data-i18n="ai_stage_split">1 فهم الادعاء</span>
+              <span class="ai-stage-active" data-i18n="ai_stage_retrieve">2 AI: استرجاع بالمعنى</span>
+              <span data-i18n="ai_stage_verify">3 تحقق من النص والمصدر</span>
+              <span data-i18n="ai_stage_decide">4 سياق / امتناع / إحالة</span>
+            </div>
+            <p class="ai-role-boundary" data-i18n="ai_role_boundary">الذكاء الاصطناعي يسترجع ويرتب المرشحين، لكنه لا ينشئ دليلًا شرعيًا ولا يصدر حكمًا؛ المصدر المعتمد هو المرجع.</p>
+          </div>
+        </section>
+
+        <div class="quick-heading"><b data-i18n="quick_section_title">تجارب سريعة</b><small data-i18n="quick_section_sub">ثلاث طرق لرؤية كيف يعمل التحقق</small></div>
+        <div class="quick-grid" aria-label="Quick examples">
+          <button class="quick" data-demo="verify"><span class="quick-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 9h4v4H7zM13 9h4v4h-4z"/><path d="M7 13c0 3-1 4-3 5M13 13c0 3-1 4-3 5"/></svg></span><b data-i18n="quick_verify_title">تحقق من اقتباس</b><small data-i18n="quick_verify_sub">تتبّع نصًا إلى مصدره</small></button>
+          <button class="quick" data-demo="context"><span class="quick-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 4h14v16H5z"/><path d="M8 8h8M8 12h8M8 16h5"/></svg></span><b data-i18n="quick_context_title">افحص السياق</b><small data-i18n="quick_context_sub">اعرف متى لا يكفي التشابه</small></button>
+          <button class="quick quick-wide" data-demo="hadith"><span class="quick-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="5.5"/><path d="m15 15 4 4"/><path d="M8 10h5M10.5 7.5v5"/></svg></span><b data-i18n="quick_hadith_title">تتبّع حديثًا</b><small data-i18n="quick_hadith_sub">اعرض المصدر والحكم الموثق</small></button>
+        </div>
+
+        <div class="composer">
+          <textarea id="claimInput" maxlength="8000" placeholder="ألصق اقتباسًا أو منشورًا أو ادعاءً…" data-i18n-placeholder="composer_placeholder" aria-label="Claim or quotation"></textarea>
+          <div class="composer-foot"><span id="charCount">0 / 8000</span><span class="shortcut" data-i18n="shortcut">Ctrl/⌘ + Enter</span><button id="analyzeBtn" class="send" type="button" aria-label="تحليل" data-i18n-aria="analyze_aria">↑</button></div>
+        </div>
+        <p class="fineprint" data-i18n="fineprint">بيّن يتحقق من المصادر والسياق — ولا يصدر فتوى أو حكمًا شرعيًا مستقلًا.</p>
+      </section>
+
+      <section id="loadingView" class="view loading-view" aria-live="polite">
+        <div class="loader"></div><h3 data-i18n="loading_title">نتتبّع المصدر…</h3><p id="loadingStep" data-i18n="loading_step_1">نفصل الادعاء ونبحث في المصادر المعتمدة.</p>
+      </section>
+
+      <div id="errorBanner" class="error-banner" role="alert" hidden><span id="errorText"></span><button id="errorDismiss" type="button" aria-label="إغلاق" data-i18n-aria="close_aria">✕</button></div>
+
+      <section id="resultView" class="view">
+        <button id="backBtn" class="back" type="button">↩ <span data-i18n="back_label">تحقق من نص آخر</span></button>
+        <p class="eyebrow" data-i18n="result_eyebrow">نتيجة التحقق</p>
+        <h2 class="result-title" data-i18n="result_title">ماذا وجد بيّن؟</h2>
+        <div class="result-meta" id="resultMeta"><span id="claimCount"></span><span id="reviewRate"></span><span id="languageBadge"></span></div>
+        <div id="claimsList"></div>
+        <div class="result-disclaimer"><b data-i18n="result_disclaimer_bold">حدود الأداة</b><span data-i18n="result_disclaimer_text">بيّن يتتبّع المصادر ويعرض السياق وحدود الثقة. المسائل التي تحتاج حكمًا متخصصًا تُحال إلى مختص مؤهل.</span></div>
+      </section>
+    </section>
+  </main>
+
+  <template id="claimTemplate">
+    <article class="claim-card">
+      <div class="claim-top">
+        <span class="status-icon" aria-hidden="true"></span>
+        <div class="claim-heading"><small class="status-label"></small><h3 class="claim-text" dir="auto"></h3></div>
+        <span class="confidence"></span>
+      </div>
+      <p class="reason"></p>
+      <div class="rag-box" hidden>
+        <div class="rag-head"><span class="rag-badge">RAG</span><b class="rag-title"></b></div>
+        <p class="rag-text"></p>
+        <small class="rag-refs"></small>
+      </div>
+      <div class="evidence-list"></div>
+      <div class="process-box">
+        <button class="process-toggle" type="button" aria-expanded="false">
+          <span class="process-title"><span class="ai-badge">AI</span><span data-i18n="process_label">كيف عمل بيّن في هذه النتيجة؟</span></span><b aria-hidden="true">+</b>
+        </button>
+        <div class="process-body" hidden>
+          <p class="ai-contribution-text"></p>
+          <div class="ai-contribution-flow">
+            <span data-i18n="ai_flow_understand">فهم الادعاء</span>
+            <span data-i18n="ai_flow_retrieve">استرجاع دلالي</span>
+            <span data-i18n="ai_flow_verify">تحقق مستقل</span>
+            <span data-i18n="ai_flow_decision">قرار آمن</span>
+          </div>
+          <small class="ai-model-note"></small>
+          <div class="trace-steps"></div>
+        </div>
+      </div>
+      <div class="feedback"><span data-i18n="feedback_prompt">هل كانت النتيجة مفيدة؟</span><button type="button" data-help="true" aria-label="النتيجة مفيدة" data-i18n-aria="feedback_up_aria">👍</button><button type="button" data-help="false" aria-label="النتيجة غير مفيدة" data-i18n-aria="feedback_down_aria">👎</button></div>
+    </article>
+  </template>
+
+  <script src="/assets/app.js"></script>
+</body>
+</html>

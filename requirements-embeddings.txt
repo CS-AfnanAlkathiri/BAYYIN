@@ -1,0 +1,4 @@
+# Optional stronger multilingual semantic backend for competition evaluation.
+# Install after backend/requirements.txt, then pre-download BAAI/bge-m3 or set
+# BAYYIN_EMBEDDING_MODEL to a local sentence-transformers model path.
+sentence-transformers>=3.4,<4

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "quranpedia",
+    "domain": "quranpedia.net",
+    "role": "Qur'an text/reference verification",
+    "scientific_package_basis": "Primary Qur'an source option listed in the scientific-reference table (p. 3)",
+    "integrated": true,
+    "integration": "live explicit-reference API + curated source URLs"
+  },
+  {
+    "id": "quranenc",
+    "domain": "quranenc.com",
+    "role": "Approved multilingual Qur'an translations",
+    "scientific_package_basis": "Association platform and developer API listed in the latest scientific package (pp. 8-10)",
+    "integrated": true,
+    "integration": "preferred live English translation API for explicit Qur'an references"
+  },
+  {
+    "id": "dorar",
+    "domain": "dorar.net",
+    "role": "Hadith source tracing, takhrij/grading inspection, and selected contextual references",
+    "scientific_package_basis": "Hadith source listed in the scientific-reference table and expanded platform details (pp. 3 and 15)",
+    "integrated": true,
+    "integration": "curated hadith records + live search fallback"
+  },
+  {
+    "id": "hadeethenc",
+    "domain": "hadeethenc.com",
+    "role": "Multilingual authentic hadith translations and explanations",
+    "scientific_package_basis": "Association platform and API listed in the latest scientific package (p. 9)",
+    "integrated": false,
+    "integration": "documented expansion option"
+  },
+  {
+    "id": "terminologyenc",
+    "domain": "terminologyenc.com",
+    "role": "Approved Islamic terminology and multilingual equivalents",
+    "scientific_package_basis": "Terminology encyclopedia listed in the latest scientific package (p. 10)",
+    "integrated": false,
+    "integration": "documented expansion option"
+  },
+  {
+    "id": "qurancomplex",
+    "domain": "qurancomplex.gov.sa",
+    "role": "Qur'an text, translations, fonts, and developer resources",
+    "scientific_package_basis": "King Fahd Complex reference and developer resources (p. 14)",
+    "integrated": false,
+    "integration": "documented expansion/verification option"
+  },
+  {
+    "id": "shamela",
+    "domain": "shamela.ws",
+    "role": "Approved classical-book corpus / Sunnah source expansion",
+    "scientific_package_basis": "Approved Sunnah-book source option and expanded platform details (pp. 3 and 15)",
+    "integrated": false,
+    "integration": "documented expansion option"
+  },
+  {
+    "id": "tafsir",
+    "domain": "tafsir.net",
+    "role": "Qur'anic studies and tafsir-context expansion",
+    "scientific_package_basis": "Tafsir Center listed among specialized references (p. 12)",
+    "integrated": false,
+    "integration": "documented context-expansion option"
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "version": "competition-final-alignment-2026-10-03",
+  "basis": "Supplied pre-challenge scientific/reference package (version 20/3/1448) and Participant Guide final judging rubric",
+  "requirements": [
+    {
+      "id": "quran-authority",
+      "requirement": "Qur’an text and approved translations must be traceable to King Fahd Complex / approved translations or Quranpedia.net.",
+      "implementation": "All 9 Qur’an records use Quranpedia.net and identify the English translation as Sahih International."
+    },
+    {
+      "id": "approved-live-translation",
+      "requirement": "Approved Qur'an translations should use the trusted translation platforms identified in the latest scientific package, including QuranEnc for multilingual Qur'an translations.",
+      "implementation": "For explicit live Qur'an references, BAYYIN prefers QuranEnc english_saheeh for the English translation while Quranpedia remains the live Qur'an text/reference source; Quranpedia translation is a graceful fallback. Static seed records retain their recorded Quranpedia/Sahih International provenance."
+    },
+    {
+      "id": "hadith-authority",
+      "requirement": "Hadith records should use the approved hadith sources and include source plus an approved grading/ruling in the data.",
+      "implementation": "All 3 hadith records use Dorar.net records and include grading_ar, grading_en, grading_source_url and grading_basis."
+    },
+    {
+      "id": "provenance",
+      "requirement": "Every religious quotation must be traceable to its source and insufficient information must be disclosed.",
+      "implementation": "Every source record has source_url, source_platform, provenance and verification_date."
+    },
+    {
+      "id": "source-vs-generated",
+      "requirement": "Distinguish source text from generated explanation.",
+      "implementation": "The UI visually separates primary Arabic source text from approved translation/display rendering; AI output is described as verification/context analysis rather than source evidence."
+    },
+    {
+      "id": "no-fatwa",
+      "requirement": "Do not independently issue personal fatwas.",
+      "implementation": "Specialist-review safety gate remains automatic; the dedicated “sensitive question” quick-demo card was removed so BAYYIN is not framed as a fatwa/Q&A product."
+    },
+    {
+      "id": "abstention",
+      "requirement": "Prefer abstention/caution when evidence is insufficient.",
+      "implementation": "insufficient_evidence remains a first-class result; weak candidates are withheld and live-source failures fall back safely."
+    }
+  ],
+  "review_note": "Hackathon competition-final build. Qualified scholarly review of the source corpus, contextual notes, and classification rules is still required before public deployment."
+}
