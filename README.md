@@ -4,6 +4,21 @@
 
 The core idea is simple: **AI helps find the right evidence by meaning; verification rules decide whether that evidence is safe to show. The source remains the authority.**
 
+## Live MVP
+
+Try the live BAYYIN prototype here:
+
+[Open BAYYIN MVP](YOUR_MVP_LINK)
+
+## Created by
+
+**Afnan Alkathiri**  
+Computer Science Student | Aspiring AI/ML Engineer  
+Creator and Developer of BAYYIN
+
+- LinkedIn: [Afnan Alkathiri](https://www.linkedin.com/in/afnan-alkathiri-4451b741a)
+- Email: afnanalkthiri21@gmail.com
+
 ## Why BAYYIN exists
 
 Islamic content online may contain:
