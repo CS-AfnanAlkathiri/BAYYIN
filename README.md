@@ -8,7 +8,7 @@ The core idea is simple: **AI helps find the right evidence by meaning; verifica
 
 Try the live BAYYIN prototype here:
 
-[Open BAYYIN MVP](YOUR_MVP_LINK)
+[Open BAYYIN MVP](https://bayyin-wpgu.onrender.com)
 
 ## Created by
 
